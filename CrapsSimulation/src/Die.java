@@ -31,6 +31,11 @@ public class Die
 		setLastRoll((int) (Math.random() * 6 + 1));
 	}
 
+	public static  String testStatic() 
+	{
+		return "die test static test";
+	}
+
 	// try changing visibility of toString to protected...
 	@Override
 	public String toString() // this OVERRIDES the default Object.toString()
@@ -40,7 +45,7 @@ public class Die
 		// add the following to the end of the above line:
 		// + " " + super.toString()
 	}
-
+	
 	public String toString(int msg) // Overloading... but NOT overriding!
 	{
 		return msg + this.toString();

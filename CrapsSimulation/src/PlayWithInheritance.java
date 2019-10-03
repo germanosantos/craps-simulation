@@ -6,7 +6,7 @@
 
 public class PlayWithInheritance
 {
-	public static int RUN_EXAMPLE = 6; // change this to try different behaviors
+	public static int RUN_EXAMPLE = 16; // change this to try different behaviors
 										// below
 
 	public static void main(String[] args)
